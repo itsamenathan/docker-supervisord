@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Turn daemon mode off on nginx
+echo "daemon off;" >> /etc/nginx/nginx.conf
+
+# Make run dir for sshd
+mkdir -p /var/run/sshd
+
+exit 0
